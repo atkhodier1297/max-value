@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
 
@@ -17,25 +15,13 @@ function App() {
   }
   
   // Example usage:
-  const numbers = [3, 6, 2, 8, 1, 9];
+  const numbers = [3, 6, 2, 8, 1, 22];
   const maxNumber = findMaxValue(numbers);
   console.log(maxNumber); // Output: 9
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <p>{maxNumber}</p>
       </header>
     </div>
